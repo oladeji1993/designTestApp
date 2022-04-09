@@ -1,0 +1,114 @@
+.my-card {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+    margin-top: 4%;
+}
+
+.bluetooth {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: center;
+}
+
+
+.other-icons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    cursor:pointer
+
+}
+
+.b-icon {
+    display: flex;
+    align-items: center;
+    height: 10rem;
+    width: 10rem;
+    border: 1px solid #1E88FF;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.s-bluetooth img {
+    width: 50px;
+    height: auto;
+    padding-right: 20px
+}
+
+.action-icon img {
+    width: 30px;
+    height: auto
+}
+
+.controller {
+    display: flex;
+    justify-content: space-around;
+    /* display: none; */
+    position: fixed;
+    width: 100%;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+
+}
+
+.device {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.device img {
+    background-color: #2089FF;
+    width: 30px;
+    height: auto;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon img {
+    width: 25px;
+    height: auto;
+}
+
+
+
+@media only screen and (max-width: 425px) {
+    .b-icon {
+        height: 8rem;
+        width: 8rem;
+    }
+
+    .b-icon img {
+        height: 2rem;
+    }
+
+    .connectible {
+        font-size: 14px;
+    }
+
+    .side-info h2 {
+        font-size: 22px;
+    }
+
+    .action-icon img {
+        width: 25px;
+        height: auto
+    }
+
+    .controller {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        bottom: 2%;
+        left: 0;
+        right: 0;
+        cursor:pointer
+    }
+}

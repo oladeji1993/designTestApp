@@ -1,0 +1,122 @@
+
+.header-container{
+    /* display:flex; */
+    margin-top:5%;
+    justify-content: center;
+    text-align: center;
+}
+
+.battery-icon img{
+    width:40px;
+    height:auto
+}
+.percentage{
+    color:#B8B8B8
+}
+
+.b-container{
+    width:100%;
+}
+
+.b-icon {
+    /* padding-top:4%; */
+    display: flex;
+    align-items: center;
+    height: 10rem;
+    width: 10rem;
+    border: 1px solid #1E88FF;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+.c-container{
+    margin-top:5%;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.connect{
+    color:#2287F5
+}
+
+.bluetoth-ref{
+    display:flex;
+    justify-content: center
+}
+
+.bluetoth-ref img{
+    width:30px;
+    height:auto
+}
+
+.i-bluetooth img{
+    width:45px;
+    height:auto
+}
+
+.controller {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+}
+
+
+.device {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.device img {
+    width: 30px;
+    height: auto;
+}
+
+.icon img {
+    width: 30px;
+    height: auto;
+}
+
+.home img{
+    padding-top:10px;
+}
+
+.share{
+    margin-left:20px
+}
+
+.name{
+    font-size:30px;
+}
+
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    border: 1px solid black;
+    padding: 22px 22px;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 425px) {
+    .controller {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        bottom: 2%;
+        left: 0;
+        right: 0;
+        cursor:pointer
+    }
+}
+
+
+
