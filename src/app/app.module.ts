@@ -14,7 +14,8 @@ import { Design3Component } from './components/design3/design3.component';
     NavComponent,
     Design1Component,
     Design2Component,
-    Design3Component
+    Design3Component,
+    
   ],
   imports: [
     BrowserModule,

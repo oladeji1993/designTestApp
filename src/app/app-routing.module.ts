@@ -22,6 +22,7 @@ const routes: Routes = [
     path: 'design3',
     component: Design3Component
   },
+
 ];
 
 @NgModule({
